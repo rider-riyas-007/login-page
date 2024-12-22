@@ -1,0 +1,360 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Roboto";
+}
+html,body{
+    overflow-x: hidden;
+}
+body{
+    display:flex;
+    width:100vw;
+    
+}
+.left-div{
+    
+    width:33vw;
+   
+    background:
+    url('asset/image/shaking-hands.png'),
+    linear-gradient(to bottom,#50508b,#21213b,#21213b);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: fixed right;
+
+    
+}
+
+.left-head{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-top: 18vh ;
+}
+.left-head>.heading-logo{
+    margin-top: 1rem;
+}
+.left-head>.heading1{
+    color:white;
+    margin-top:1rem;
+    margin-left:1rem;
+    letter-spacing:1px;
+    font-size: 2.5rem;
+    font-weight: 550;
+    
+}
+.left-head>.heading2{
+    color:white;
+    margin-top:1rem;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    font-weight:100;
+
+}
+.left-bottom{
+
+    color:white;
+    margin-top: 54%;
+    
+    width:100%;
+    justify-content: center;
+    
+    text-align: center;
+    padding-bottom: 20vh;
+   
+
+}
+.left-bottom>.para1{
+font-weight: 900;
+font-size: 2.2rem;
+width:80%;
+text-align: center;
+margin-left: 10%;
+
+
+}
+.left-bottom>.para2{
+ line-height: 1.6rem;
+ color: #BDBDBD;
+ margin-left: 12%;
+ font-size:.8rem;font-weight: 20;
+ width:75%;
+ 
+}
+/* left division ending */
+/* right division starting */
+.right-div{
+    width:65vw;
+}
+.heading-logo2-div{
+    background-image: linear-gradient(to right,#50508b,#21213b,#21213b);
+    width:100%;
+    padding:1vw;
+    display:none;
+    color:white;
+}
+.heading-logo2-div>h2{
+    padding-top: .7vw;
+    padding-left: .6vw;
+}
+.right-top{
+    width:98%;
+    display:flex;
+    justify-content: space-between;
+    padding:3%;
+
+}
+.right-top-div{
+display:flex;
+
+
+
+}
+.right-top-div>p{
+    font-size: .8rem;
+    padding-top:1px;
+    color: #424242;
+    margin-right: 1px;
+}
+.right-top-div>img{
+   padding-right:8px;
+   margin-top: -1px;
+   color:#424242;
+
+}
+.right-center{
+    width:100%;
+    
+    text-align: center;
+    line-height: 7vh;
+    margin-top: 10vh;
+}
+.right-center>p{
+    color: #424242;
+
+
+}
+.inputs{
+    border:1px solid grey;
+    width:45%;
+    display:flex;
+    margin:20px;
+    margin-left: 18vw;
+    
+
+}
+.inputs>input{
+    width:100%;
+    
+    padding:25px 5px;
+    border:none;
+    outline: none;
+}
+.inputs>label>img{
+    padding-top:1.3rem;
+    padding-left: 2rem;
+    padding-right: .5rem;
+ }
+ 
+.submit{
+    
+    width:45%;
+    display:flex;
+    margin:20px;
+    margin-left: 18vw;
+   
+}
+.submit>button{
+    background-color:#24243E;
+    color:white;
+    width:100%;
+    justify-content: space-between;
+    padding:25px 50px;
+    border:none;
+    outline: none;
+    display:flex;
+    font-size: .85rem;
+    font-weight: none;
+}
+.submit>button:hover{
+    transition: 0.3s;
+
+    color:#24243E;
+    background-color: white;
+    border:1px solid #24243e;
+    cursor:pointer;
+
+
+}
+.right-bottom{
+   display:flex;
+   justify-content:space-between;
+   font-size: .8rem;
+   color:grey;
+   padding:2%;
+   padding-top: 20%;
+}
+
+@media screen and (max-width:1200px){
+    .heading-logo2-div{
+        display:flex;
+    }
+    .left-div{
+        display:none;
+    }
+    .right-div{
+        width:100vw;
+    }
+    .inputs,.submit{
+        margin-left:27vw;
+    }
+    .right-top{
+        width:95%;
+        display:flex;
+        justify-content: space-between;
+        padding-top:2%;
+    
+    }
+    .right-top-div{
+    display:flex;
+    
+    
+    
+    
+    }
+    .right-top-div>p{
+        font-size: .8rem;
+        padding-top:1px;
+        color: #424242;
+        margin-right: 1px;
+    }
+    .right-top-div>img{
+       padding-right:1px;
+       margin-top: -1px;
+       color:#424242;
+    
+    }
+   
+    
+}
+@media screen and (max-width:992px){
+    .right-top{
+        width:92%;
+        display:flex;
+        justify-content: space-between;
+        padding-top:2%;
+    
+    }
+    .right-top-div{
+    display:flex;
+    
+    
+    
+    
+    }
+    .right-top-div>p{
+        font-size: .8rem;
+        padding-top:1px;
+        color: #424242;
+        margin-right: 1px;
+    }
+    .right-top-div>img{
+       padding-right:1px;
+       margin-top: -1px;
+       color:#424242;
+    
+    }
+    
+}
+@media screen and (max-width:768){
+    .right-top{
+        width:90%;
+        display:flex;
+        justify-content: space-between;
+        padding-top:2%;
+    
+    }
+    .right-top-div{
+    display:flex;
+    
+    
+    
+    
+    }
+    .right-top-div>p{
+        font-size: .8rem;
+        padding-top:1px;
+        color: #424242;
+        margin-right: 1px;
+    }
+    .right-top-div>img{
+       padding-right:1px;
+       margin-top: -1px;
+       color:#424242;
+    
+    }
+    
+   
+    
+}
+@media screen and (max-width:576){
+    .right-top{
+        width:88%;
+        display:flex;
+        justify-content: space-between;
+        padding-top:2%;
+    
+    }
+    .right-top-div{
+    display:flex;
+    
+    
+    
+    
+    }
+    .right-top-div>p{
+        font-size: .8rem;
+        padding-top:1px;
+        color: #424242;
+        margin-right: 1px;
+    }
+    .right-top-div>img{
+       padding-right:1px;
+       margin-top: -1px;
+       color:#424242;
+    
+    }
+    
+}
+@media screen and (max-width:480px){
+    .heading-logo2-div{
+        background-image: linear-gradient(to right,#50508b,#21213b,#21213b);
+        width:100%;
+        padding:1vw;
+        display:flex;
+        color:white;
+    }
+    .heading-logo2-div>h2{
+        padding-top: 3vw;
+        padding-left: .8vw;
+        font-size: 1.5rem;
+    }
+    .heading-logo2-div>img{
+        
+    }
+    .inputs>input{
+        padding:1%;
+        width:100%;
+
+    }
+    .inputs>label>img{
+        padding-left: 2vw;
+        padding-top:1rem;
+    }
+}
+
+
+
+
+
+
